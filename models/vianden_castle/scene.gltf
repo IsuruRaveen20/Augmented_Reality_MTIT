@@ -1,0 +1,474 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        10.8251953125,
+        4.31224250793457,
+        -8.61495590209961
+      ],
+      "min": [
+        -3.5127992630004883,
+        -6.169839859008789,
+        -27.508575439453125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999988079071045,
+        0.999998927116394,
+        0.9999244213104248
+      ],
+      "min": [
+        -0.9999809861183167,
+        -0.9998451471328735,
+        -0.9998877048492432
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999110698699951,
+        0.9984978437423706
+      ],
+      "min": [
+        5.2909574151271954e-05,
+        3.0092660381342284e-06
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 344520,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 59123,
+      "max": [
+        10.801714897155762,
+        5.4344401359558105,
+        -7.981280326843262
+      ],
+      "min": [
+        -3.4316635131835938,
+        -6.799272537231445,
+        -28.30070686340332
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2282244,
+      "componentType": 5126,
+      "count": 59123,
+      "max": [
+        0.9999990463256836,
+        0.9999967217445374,
+        0.9999983906745911
+      ],
+      "min": [
+        -0.9999545812606812,
+        -0.9986288547515869,
+        -0.9999856948852539
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524256,
+      "componentType": 5126,
+      "count": 59123,
+      "max": [
+        0.9999581575393677,
+        0.9984817504882813
+      ],
+      "min": [
+        4.54205064670532e-07,
+        4.2729716369649395e-05
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1378080,
+      "componentType": 5125,
+      "count": 288135,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2991720,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        10.127933502197266,
+        4.67928409576416,
+        -8.314189910888672
+      ],
+      "min": [
+        -3.306145668029785,
+        -6.176712989807129,
+        -27.911117553710938
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3778104,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999992251396179,
+        0.999998927116394,
+        0.999996542930603
+      ],
+      "min": [
+        -0.9999992847442627,
+        -0.9996817708015442,
+        -0.9999399185180664
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 997240,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999409914016724,
+        0.9999759793281555
+      ],
+      "min": [
+        0.00011771696154028177,
+        1.2042932212352753e-05
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2530620,
+      "componentType": 5125,
+      "count": 345693,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 4564488,
+      "componentType": 5126,
+      "count": 57078,
+      "max": [
+        10.935929298400879,
+        5.4344401359558105,
+        -8.000003814697266
+      ],
+      "min": [
+        -3.4316940307617188,
+        -6.345150947570801,
+        -28.696413040161133
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 5249424,
+      "componentType": 5126,
+      "count": 57078,
+      "max": [
+        0.9998478293418884,
+        0.999998927116394,
+        0.9999938607215881
+      ],
+      "min": [
+        -0.9998498558998108,
+        -0.998870313167572,
+        -0.9999231696128845
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1521496,
+      "componentType": 5126,
+      "count": 57078,
+      "max": [
+        0.9999985694885254,
+        0.9999991655349731
+      ],
+      "min": [
+        4.145316779613495e-05,
+        1.665383024374023e-06
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 3913392,
+      "componentType": 5125,
+      "count": 281649,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "FUD-UJEP (https://sketchfab.com/FUD-UJEP)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/vianden-castle-91a01eae9ada489a9bc76ecf21881237",
+      "title": "Vianden Castle"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 5039988,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1978120,
+      "byteOffset": 5039988,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5934360,
+      "byteOffset": 7018108,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 12952468,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/material0_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/material1_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "material0",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "material1",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Model_material0_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Model_material0_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Model_material1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Model_material1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        4.988890588283539,
+        -0.33311687409877777,
+        0.0019427028018980479,
+        0.0,
+        -0.303345937281847,
+        -4.530824422836305,
+        2.0927518606185904,
+        0.0,
+        -0.1376657746732235,
+        -2.0882198214530936,
+        -4.540967643260957,
+        0.0,
+        0.45115023851394653,
+        27.87671089172363,
+        16.37390327453614,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Vianden Castle.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "name": "Model"
+    },
+    {
+      "mesh": 0,
+      "name": "Model_material0_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Model_material0_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Model_material1_0"
+    },
+    {
+      "mesh": 3,
+      "name": "Model_material1_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
