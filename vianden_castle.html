@@ -2,22 +2,92 @@
 <html>
 
 <head>
-    <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
-    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
-    <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+  <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
+  <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+  <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
 </head>
+<style>
+  #bottom_menu {
+    width: 550px;
+    height: 80px;
+    background: green;
+    position: absolute;
+    left: 50%;
+    bottom: 1%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    /* border: 1px solid rgba(255, 255, 255, 0.18); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 99;
+  }
+
+  .places_item {
+    width: 100px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .liberty {
+    width: 75px;
+  }
+
+  .burj {
+    width: 85px;
+  }
+
+  .colosseum {
+    width: 90px;
+  }
+
+  .castle {
+    width: 90px;
+  }
+
+  .tian-tan {
+    width: 75px;
+  }
+
+  .temple {
+    width: 80px;
+  }
+
+  .planet_item:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+  } 
+</style>
 
 <body style="margin: 0; overflow: hidden;">
-    <a-scene
-    embedded
-    vr-mode-ui="enabled: false;"
-    arjs="debugUIEnabled: false;"
-  >
+  <div id="bottom_menu">
+    <a href="liberty.html">
+      <img src="./images/icons/liberty.png" class="planet_item liberty" alt="" />
+    </a>
+    <a href="burj_kalifa.html">
+      <img src="./images/icons/burj.png" class="planet_item burj" alt="" />
+    </a>
+    <a href="vianden_castle.html">
+      <img src="./images/icons/castle1.png" class="planet_item castle" alt="" />
+    </a>
+    <a href="colosseum.html">
+      <img src="./images/icons/colosseum.png" class="planet_item colosseum" alt="" />
+    </a>
+    <a href="tian_tan_buddha.html">
+      <img src="./images/icons/tian-tan.png" class="planet_item tian-tan" alt="" />
+    </a>
+    <a href="angkor_wat_temple.html">
+      <img src="./images/icons/temple1.png" class="planet_item temple" alt="" />
+    </a>
+  </div>
+  <a-scene embedded vr-mode-ui="enabled: false;" arjs="debugUIEnabled: false;">
     <a-marker id="marker" preset="custom" type="pattern" url="markers/vianden_castle/vianden_castle.patt">
-      <a-entity
-        gltf-model="url(./models/vianden_castle/scene.gltf)"
-        scale="0.1 0.1 0.1"
-      >
+      <a-entity gltf-model="url(./models/vianden_castle/scene.gltf)" scale="0.1 0.1 0.1">
         <!-- <a-animation
           attribute="rotation"
           easing="linear"
