@@ -2,67 +2,11 @@
 <html>
 
 <head>
+  <link rel="stylesheet" type="text/css" href="css/bottom_menu.css">
   <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
   <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
   <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
 </head>
-<style>
-  #bottom_menu {
-    width: 550px;
-    height: 80px;
-    background: green;
-    position: absolute;
-    left: 50%;
-    bottom: 1%;
-    transform: translateX(-50%);
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.3);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(9px);
-    -webkit-backdrop-filter: blur(9px);
-    /* border: 1px solid rgba(255, 255, 255, 0.18); */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    z-index: 99;
-  }
-
-  .places_item {
-    width: 100px;
-    transition: 0.5s;
-    cursor: pointer;
-  }
-
-  .liberty {
-    width: 75px;
-  }
-
-  .burj {
-    width: 85px;
-  }
-
-  .colosseum {
-    width: 90px;
-  }
-
-  .castle {
-    width: 90px;
-  }
-
-  .tian-tan {
-    width: 75px;
-  }
-
-  .temple {
-    width: 80px;
-  }
-
-  .planet_item:hover {
-    transform: scale(1.2);
-    transition: 0.5s;
-  } 
-</style>
 
 <body style="margin: 0; overflow: hidden;">
   <div id="bottom_menu">
