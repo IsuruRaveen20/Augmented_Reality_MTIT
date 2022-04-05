@@ -32,23 +32,15 @@
   <a-scene embedded vr-mode-ui="enabled: false;" arjs="debugUIEnabled: false;">
     <a-marker id="marker" preset="custom" type="pattern" url="markers/vianden_castle/vianden_castle.patt">
       <a-entity gltf-model="url(./models/vianden_castle/scene.gltf)" scale="0.1 0.1 0.1">
-        <!-- <a-animation
-          attribute="rotation"
-          easing="linear"
-          dur="10000"
-          to="0 360 0"
-          repeat="indefinite"
-        >
-        </a-animation> -->
       </a-entity>
 
       <a-text value="IT19152592" position="-0.6 -2 0"> </a-text>
-
-      <!-- <a-image
+      <a-image
+        src="images/info-boards/vianden.jpg"
         position="2.5 0 0"
         width="2px"
         height="3px"
-      ></a-image> -->
+      ></a-image>
     </a-marker>
 
     <a-entity camera></a-entity>
