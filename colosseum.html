@@ -13,8 +13,8 @@
     <a href="liberty.html">
       <img src="./images/icons/liberty.png" class="planet_item liberty" alt="" />
     </a>
-    <a href="burj_kalifa.html">
-      <img src="./images/icons/burj.png" class="planet_item burj" alt="" />
+    <a href="sydney_opera.html">
+      <img src="./images/icons/sydney.png" class="planet_item sydney" alt="" />
     </a>
     <a href="vianden_castle.html">
       <img src="./images/icons/castle1.png" class="planet_item castle" alt="" />
@@ -31,24 +31,19 @@
   </div>
   <a-scene embedded vr-mode-ui="enabled: false;" arjs="debugUIEnabled: false;">
     <a-marker id="marker" preset="custom" type="pattern" url="markers/colosseum/colosseum_Rome.patt">
-      <a-entity gltf-model="url(./models/colosseum/scene.gltf)" scale="0.1 0.1 0.1">
-        <!-- <a-animation
-          attribute="rotation"
-          easing="linear"
-          dur="10000"
-          to="0 360 0"
-          repeat="indefinite"
-        >
-        </a-animation> -->
+      <a-entity
+        gltf-model="url(./models/colosseum/scene.gltf)"
+        scale="0.03 0.03 0.03"
+      >
       </a-entity>
 
-      <a-text value="IT19216010" position="-0.6 -2 0"> </a-text>
+      <a-text value="IT19216010" position="2.5 -2 0"> </a-text>
 
       <a-image
         src="images/info-boards/colosseum.png"
         position="2.5 0 0"
-        width="2px"
-        height="3px"
+        width="1px"
+        height="2px"
       ></a-image>
     </a-marker>
 
