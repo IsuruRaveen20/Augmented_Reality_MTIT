@@ -1,3 +1,3 @@
-# Augmented_Reality_MTIT - MTIT-146
+# Augmented_Reality_MTIT
 ![ScreenShot](/snapshots/landing page.png)
 
