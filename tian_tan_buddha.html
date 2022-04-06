@@ -31,19 +31,18 @@
     </div>
     <a-scene embedded vr-mode-ui="enabled: false;" arjs="debugUIEnabled: false;">
         <a-marker id="marker" preset="custom" type="pattern" url="markers/tian_tan_buddha/Budha.patt">
-            <a-entity gltf-model="url(./models/tian_tan_buddha/scene.gltf)" scale="0.3 0.3 0.1">
-                <!-- <a-animation
-          attribute="rotation"
-          easing="linear"
-          dur="10000"
-          to="0 360 0"
-          repeat="indefinite"
-        >
-        </a-animation> -->
+            <a-entity gltf-model="url(./models/tian_tan_buddha/scene.gltf)" scale="0.2 0.2 0.1">
+          
             </a-entity>
 
             <a-text value="IT19159768" position="-0.6 -2 0"> </a-text>
 
+            <a-image 
+                src="./images/info-boards/tian_tan.png"
+                position="2.5 0 0" 
+                width="1px" 
+                height="2px">
+            </a-image>
         </a-marker>
 
         <a-entity camera></a-entity>
