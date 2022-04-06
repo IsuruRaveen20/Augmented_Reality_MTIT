@@ -1,3 +1,10 @@
 # Augmented_Reality_MTIT
-![ScreenShot](/images/img1.jpg)
+![ScreenShot](/snapshots/landing page.jpg)
+![ScreenShot](/snapshots/places.jpg)
+![ScreenShot](/snapshots/Vianden Castle.jpg)
+![ScreenShot](/snapshots/collssuem-final.jpg)
+![ScreenShot](/snapshots/tian tan.jpg)
+![ScreenShot](/snapshots/Liberty.jpg)
+![ScreenShot](/snapshots/sydney.jpg)
+![ScreenShot](/snapshots/angkor.jpg)
 
