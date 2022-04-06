@@ -6,5 +6,5 @@
 ![ScreenShot](/snapshots/tian tan.jpg)
 ![ScreenShot](/snapshots/Liberty.jpg)
 ![ScreenShot](/snapshots/sydney.jpg)
-![ScreenShot](/snapshots/angkor.jpg)
+
 
