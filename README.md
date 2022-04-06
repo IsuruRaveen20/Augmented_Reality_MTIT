@@ -1,3 +1,3 @@
 # Augmented_Reality_MTIT
-![ScreenShot](/snapshots/landing page.png)
+![ScreenShot](/images/img1.jpg)
 
